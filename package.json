@@ -1,0 +1,12 @@
+{
+	"name": "com.kamzhanyue.unity-utility",
+	"version": "0.1.0",
+	"displayName": "Unity Utility",
+	"description": "Lightweight package for Unity Editor and Runtime helper scripts.",
+	"unity": "2022.3",
+	"author": {
+		"name": "Kam Zhan Yue",
+		"email": "kamzhanyue@gmail.com",
+		"url": "https://kam-zhan-yue.github.io/"
+	}
+}
