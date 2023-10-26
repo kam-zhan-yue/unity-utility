@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Kuroneko.EditorUtility.Editor
+namespace Kuroneko.UtilityDelivery.Editor
 {
     public static class EditorShortcuts
     {

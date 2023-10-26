@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Kuroneko.RuntimeUtility
+namespace Kuroneko.UtilityDelivery
 {
     public static class StaticHelper
     {
