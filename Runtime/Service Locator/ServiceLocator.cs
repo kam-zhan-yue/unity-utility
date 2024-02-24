@@ -2,11 +2,12 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ChaosPong.Common
+namespace Kuroneko.UtilityDelivery
 {
     /// <summary>
     /// Simple service locator for <see cref="IGameService"/> instances.
     /// </summary>
+    [DefaultExecutionOrder(-100)]
     public class ServiceLocator : MonoBehaviour
     {
         /// <summary>

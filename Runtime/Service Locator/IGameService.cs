@@ -1,4 +1,7 @@
-public interface IGameService
+namespace Kuroneko.UtilityDelivery
 {
-    
+    public interface IGameService
+    {
+        
+    }
 }
