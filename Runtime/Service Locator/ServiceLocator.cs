@@ -52,16 +52,17 @@ namespace Kuroneko.UtilityDelivery
         /// </summary>
         /// <typeparam name="T">Service type.</typeparam>
         /// <param name="service">Service instance.</param>
-        public void Register<T>(T service) where T : IGameService
+        public bool Register<T>(T service) where T : IGameService
         {
             string key = typeof(T).Name;
             if (_services.ContainsKey(key))
             {
                 // Debug.LogError($"Attempted to register service of type {key} which is already registered with the {GetType().Name}.");
-                return;
+                return false;
             }
 
             _services.Add(key, service);
+            return true;
         }
 
         /// <summary>
